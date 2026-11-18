@@ -1,0 +1,276 @@
+
+/* Users Page */
+.users-page {
+  width: 100%;
+  min-width: 0;
+  padding: 10px;
+  color: #1e293b;
+}
+
+/* Users Header */
+.users-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.users-header h2 {
+  color: #172554;
+  margin-bottom: 8px;
+}
+
+.users-header p {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.users-count {
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* User Form and Table */
+.user-form,
+.users-table {
+  width: 100%;
+  min-width: 0;
+  background: white;
+  padding: 22px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.user-form h3,
+.users-table h3 {
+  color: #172554;
+  margin-bottom: 20px;
+}
+
+/* User Form Fields */
+.form-fields {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.form-fields input,
+.form-fields select {
+  flex: 1;
+  min-width: 150px;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  outline: none;
+}
+
+.form-fields input:focus,
+.form-fields select:focus {
+  border-color: #2563eb;
+}
+
+.form-fields button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color: white;
+}
+
+.add-btn {
+  background: #2563eb;
+}
+
+.cancel-btn {
+  background: #64748b;
+}
+
+/* Search and Filter */
+.users-toolbar {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.users-toolbar input,
+.users-toolbar select {
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  outline: none;
+  font-size: 14px;
+}
+
+.users-toolbar input {
+  flex: 1;
+  min-width: 200px;
+}
+
+.users-toolbar input:focus,
+.users-toolbar select:focus {
+  border-color: #2563eb;
+}
+
+/* Users Table */
+.users-table {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.users-table table {
+  width: 100%;
+  min-width: 650px;
+  border-collapse: collapse;
+}
+
+.users-table th,
+.users-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+  white-space: nowrap;
+}
+
+.users-table th {
+  background: #f1f5f9;
+  color: #172554;
+}
+
+.users-table tr:hover {
+  background: #f8fafc;
+}
+
+/* User Role Badges */
+.role-badge {
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.role-badge.admin {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.role-badge.user {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.role-badge.editor {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+/* Edit and Delete Buttons */
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-right: 7px;
+}
+
+.edit-btn {
+  background: #16a34a;
+}
+
+.delete-btn {
+  background: #dc2626;
+}
+
+.empty-message {
+  text-align: center !important;
+  color: #64748b;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .users-page {
+    padding: 8px;
+  }
+
+  .user-form,
+  .users-table {
+    padding: 16px;
+  }
+
+  .users-toolbar input {
+    min-width: 150px;
+  }
+
+  .form-fields input,
+  .form-fields select {
+    min-width: 130px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .users-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .users-header h2 {
+    font-size: 20px;
+  }
+
+  .user-form,
+  .users-table {
+    padding: 13px;
+  }
+
+  .form-fields {
+    flex-direction: column;
+  }
+
+  .form-fields input,
+  .form-fields select {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .form-fields button {
+    width: 100%;
+  }
+
+  .users-toolbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .users-toolbar input,
+  .users-toolbar select {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .users-table table {
+    min-width: 650px;
+  }
+}
+
+/* Very Small Mobile */
+@media (max-width: 360px) {
+  .user-form,
+  .users-table {
+    padding: 10px;
+  }
+
+  .users-count {
+    font-size: 13px;
+  }
+}

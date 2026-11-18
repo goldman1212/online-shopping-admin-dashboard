@@ -1,0 +1,40 @@
+// English / Amharic / Afaan Oromoo. Amharic and Afaan Oromoo strings should be reviewed by a native speaker.
+export const LANGS = [['en', 'English'], ['am', 'አማርኛ'], ['om', 'Afaan Oromoo']]
+export const L = {
+  en: {
+    n_overview: 'Dashboard Overview', n_users: 'User Management', n_sellers: 'Seller Verification', n_products: 'Product Management',
+    n_orders: 'Order Management', n_payments: 'Payment Management', n_delivery: 'Delivery Management', n_tryon: 'Virtual Try-On / 3D Models',
+    n_ads: 'Advertisement Management', n_analytics: 'Analytics & Reports', n_support: 'Customer Support', n_notifications: 'Notifications',
+    n_prefs: 'Settings', logout: 'Logout', signin: 'Sign in', email: 'Email', password: 'Password', approve: 'Approve', reject: 'Reject', suspend: 'Suspend', reactivate: 'Reactivate', resolve: 'Resolve', markRead: 'Mark all as read', search: 'Search modules and press Enter', demoBanner: 'Demo data: sample values for presentation, not from a database.',
+    users: 'Total Users', sellers: 'Total Sellers', products: 'Total Products', orders: 'Total Orders', revenue: 'Total Revenue', pending: 'Pending Seller Verifications',
+    sales: 'Monthly sales', status: 'Order status', recent: 'Recent orders', searchOrders: 'Search orders', allPay: 'All payments',
+    oid: 'Order ID', buyer: 'Buyer', product: 'Product', amount: 'Amount', payment: 'Payment', delivery: 'Delivery', date: 'Date', action: 'Action',
+    details: 'Details', close: 'Close', prev: 'Previous', next: 'Next', page: 'Page', of: 'of', loading: 'Loading…', empty: 'Nothing here yet',
+    noApi: 'API not connected', noApiMsg: 'Leave the API URL empty to use this site’s own backend, or turn on demo data.', err: 'Could not load data', retry: 'Try again',
+    api: 'Backend connection', apiUrl: 'API base URL', demo: 'Use labelled demo data (no backend)', save: 'Save', lang: 'Language', theme: 'Toggle theme',
+  },
+  am: {
+    n_overview: 'ዳሽቦርድ', n_users: 'የተጠቃሚ አስተዳደር', n_sellers: 'የሻጭ ማረጋገጫ', n_products: 'የምርት አስተዳደር', n_orders: 'የትዕዛዝ አስተዳደር',
+    n_payments: 'የክፍያ አስተዳደር', n_delivery: 'የማድረስ አስተዳደር', n_tryon: 'ምናባዊ መሞከሪያ / 3D', n_ads: 'የማስታወቂያ አስተዳደር',
+    n_analytics: 'ትንታኔ እና ሪፖርቶች', n_support: 'የደንበኛ ድጋፍ', n_notifications: 'ማሳወቂያዎች', n_prefs: 'ቅንብሮች', logout: 'ውጣ',
+    search: 'ሞጁሎችን ይፈልጉ እና Enter ይጫኑ', demoBanner: 'የማሳያ ዳታ፡ ለአቀራረብ የተዘጋጀ ናሙና እንጂ ከዳታቤዝ የመጣ አይደለም።',
+    users: 'ጠቅላላ ተጠቃሚዎች', sellers: 'ጠቅላላ ሻጮች', products: 'ጠቅላላ ምርቶች', orders: 'ጠቅላላ ትዕዛዞች', revenue: 'ጠቅላላ ገቢ', pending: 'በመጠባበቅ ላይ ያሉ የሻጭ ማረጋገጫዎች',
+    sales: 'ወርሃዊ ሽያጭ', status: 'የትዕዛዝ ሁኔታ', recent: 'የቅርብ ጊዜ ትዕዛዞች', searchOrders: 'ትዕዛዞችን ይፈልጉ', allPay: 'ሁሉም ክፍያዎች',
+    oid: 'የትዕዛዝ መለያ', buyer: 'ገዢ', product: 'ምርት', amount: 'መጠን', payment: 'ክፍያ', delivery: 'ማድረስ', date: 'ቀን', action: 'እርምጃ',
+    details: 'ዝርዝር', close: 'ዝጋ', prev: 'ቀዳሚ', next: 'ቀጣይ', page: 'ገጽ', of: 'ከ', loading: 'በመጫን ላይ…', empty: 'እስካሁን ምንም የለም',
+    noApi: 'ኤፒአይ አልተገናኘም', noApiMsg: 'በቅንብሮች ውስጥ የጀርባ ክፍል አድራሻ ያስገቡ ወይም የማሳያ ዳታ ያብሩ።', err: 'ዳታውን መጫን አልተቻለም', retry: 'እንደገና ሞክር',
+    api: 'የጀርባ ክፍል ግንኙነት', apiUrl: 'የኤፒአይ አድራሻ', demo: 'ምልክት የተደረገበት የማሳያ ዳታ ተጠቀም', save: 'አስቀምጥ', lang: 'ቋንቋ', theme: 'ገጽታ ቀይር',
+  },
+  om: {
+    n_overview: 'Ilaalcha Waliigalaa', n_users: 'Bulchiinsa Fayyadamtootaa', n_sellers: 'Mirkaneessa Gurgurtootaa', n_products: 'Bulchiinsa Oomishaa',
+    n_orders: 'Bulchiinsa Ajajaa', n_payments: 'Bulchiinsa Kaffaltii', n_delivery: 'Bulchiinsa Geejjibaa', n_tryon: 'Yaalii Virtuwaalii / Moodela 3D',
+    n_ads: 'Bulchiinsa Beeksisaa', n_analytics: 'Xiinxala fi Gabaasa', n_support: 'Deeggarsa Maamilaa', n_notifications: 'Beeksisaalee',
+    n_prefs: "Qindaa'ina", logout: "Ba'i", search: 'Moojuloota barbaadi, Enter tuqi', demoBanner: 'Daataa agarsiisaa: fakkeenya dhiyeessii qofa, daataabeesii irraa miti.',
+    users: 'Fayyadamtoota Waliigalaa', sellers: 'Gurgurtoota Waliigalaa', products: 'Oomishoota Waliigalaa', orders: 'Ajajoota Waliigalaa', revenue: 'Galii Waliigalaa', pending: 'Mirkaneessa Eegaa Jiran',
+    sales: "Gurgurtaa Ji'aa", status: 'Haala Ajajaa', recent: 'Ajajoota Dhiyoo', searchOrders: 'Ajajoota barbaadi', allPay: 'Kaffaltiiwwan hundaa',
+    oid: 'Lakk. Ajajaa', buyer: 'Bitaa', product: 'Oomisha', amount: 'Hanga', payment: 'Kaffaltii', delivery: 'Geejjiba', date: 'Guyyaa', action: 'Tarkaanfii',
+    details: 'Bal’ina', close: 'Cufi', prev: 'Duraa', next: 'Itti aanu', page: 'Fuula', of: 'keessaa', loading: 'Fe’aa jira…', empty: 'Ammaaf homaatu hin jiru',
+    noApi: 'API hin walqabatne', noApiMsg: "Qindaa'ina keessatti teessoo backend galchi ykn daataa agarsiisaa banaa.", err: 'Daataa fe’uun hin danda’amne', retry: 'Irra deebi’i',
+    api: 'Walqabsiisa backend', apiUrl: 'Teessoo API', demo: 'Daataa agarsiisaa mallattoo qabu fayyadami', save: 'Olkaa’i', lang: 'Afaan', theme: 'Bifa jijjiiri',
+  },
+}

@@ -1,0 +1,87 @@
+
+/* Settings Page Responsive */
+.settings-page {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+/* Settings Cards */
+.settings-card {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.settings-card input:not([type="checkbox"]) {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Settings Options */
+.setting-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Success and Error Messages */
+.settings-message {
+  flex-wrap: wrap;
+  overflow-wrap: anywhere;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .settings-page {
+    padding: 12px;
+  }
+
+  .settings-card {
+    padding: 18px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .settings-page {
+    padding: 8px;
+  }
+
+  .settings-card {
+    padding: 14px;
+  }
+
+  .settings-card h2 {
+    font-size: 19px;
+  }
+
+  .settings-card input:not([type="checkbox"]) {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .setting-option {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .settings-message {
+    padding: 12px;
+    font-size: 13px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 360px) {
+  .settings-card {
+    padding: 10px;
+  }
+
+  .settings-card h2 {
+    font-size: 17px;
+  }
+}
